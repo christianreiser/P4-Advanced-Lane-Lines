@@ -97,6 +97,8 @@ To calculate the vehicles distance to the road center I added the position of th
 ## writing the curvature and offset from center onto the image
 my last step in for imageprocessing. I used the `cv2.putText()` function.
 
+![](https://github.com/christianreiser/P4-Advanced-Lane-Lines/blob/master/output_images/s.png)
+
 # Video
 Here's a [link to my video result](https://github.com/christianreiser/P4-Advanced-Lane-Lines/blob/master/project_output.mp4)
 
