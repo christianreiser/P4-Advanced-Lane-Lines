@@ -91,7 +91,8 @@ I used the inversetransformation. Then I combined The original image with the ne
 ## Curvature
 I'll want to measure the radius of the curvature at the very bottom of the image: y-value= 720.
 Because the measurement of the curvature should be in real world meters rather than pixels I defined conversions in x and y from pixels space to meters.
-X converstation: 4*12/720 where 4 is the number of dashed lines in the selected trapezoid and 12 is the number of meters between dashed lines start. Consequently 4*12 is the distance of real world meters and 720 is the distance of the lines in pixels. 4*12/720 is the conversation factor from pixelspace to meterspace.
+Y-converstation: 4*12/720 where 4 is the number of dashed lines in the selected trapezoid and 12 is the number of meters between dashed lines start. Consequently 4*12 is the distance of real world meters and 720 is the distance of the lines in pixels. 4*12/720 is the conversation factor from pixelspace to meterspace.
+X-Conversation:3.7/845, where 3.7m is the distance in meter between the right and left line and 845px is the distance in pixel space.
 
 ## Vehicles distance from road center
 To calculate the vehicles distance to the road center I added the position of the two lane lines and took the half of the sum. Then I subtracted the position of the camera which is mounted in the center of the car. 
