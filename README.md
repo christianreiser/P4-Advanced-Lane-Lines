@@ -105,7 +105,7 @@ my last step in for imageprocessing. I used the `cv2.putText()` function.
 # Video
 Here's a [GitHub link to my video result](https://github.com/christianreiser/P4-Advanced-Lane-Lines/blob/master/project_output.mp4)
 
-Or if you prefere [YouTube](https://youtu.be/ja5PN2Z2YoE)
+Or if you prefere [YouTube](https://youtu.be/5Vh-wtZC_ds)
 
 
 # Discussion
